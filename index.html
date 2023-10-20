@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy</title>
+  <link href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="jeopardy.css">
+</head>
+<body>
+      <div id="initialScreen">
+            <h2>Jeopardy</h2>
+            <p id="description">Test your knowledge in this simplified Jeopardy game. Built with a focus on API integration, this game showcases real-time data fetching to keep questions diverse and challenging. Dive in and see what you know!</p>
+
+            <button id="startGame">Start Game</button>
+            <div id="centerContainer">
+                        <p id="author">Made by Jiahao Li</p>
+            </div>
+      </div>
+      
+      <div id="gameScreen"> 
+            <div id="wholeTable" class="tableDivClass">
+                  <table id="aboveTable">
+                  </table >
+                  <div id="actualTable">
+                        <table id="jeopardy">
+                        </table>
+                  </div>
+                  <button  id="restart">Restart Game</button>
+            </div>
+      </div>
+      
+  
+
+
+
+
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="https://unpkg.com/lodash"></script>
+<script src="jeopardy.js"></script>
+
+</body>
+</html>
