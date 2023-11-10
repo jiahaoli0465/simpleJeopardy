@@ -15,5 +15,4 @@ Welcome to the Simple Jeopardy Game! This project is a web-based implementation 
 - JavaScript
 - External Libraries: jQuery, Axios, Lodash
 
-## Getting Started
 
